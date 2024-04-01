@@ -4,7 +4,8 @@
             "name": "macos-clang-x64",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/local/Cellar/qt/6.6.2_1/lib/QtWidgets.framework/Versions/A/Headers"
+                "/usr/local/Cellar/qt/6.6.2_1/lib/QtWidgets.framework/Versions/A/Headers",
+                "/usr/local/Cellar/qt/6.6.2_1/lib/QtCore.framework/Versions/A/Headers"
             ],
             "compilerPath": "/usr/bin/clang",
             "cStandard": "${default}",

@@ -1,9 +1,0 @@
-/Users/nch/Desktop/qt/untitled1/build/CMakeFiles/Maze.dir
-/Users/nch/Desktop/qt/untitled1/build/CMakeFiles/edit_cache.dir
-/Users/nch/Desktop/qt/untitled1/build/CMakeFiles/rebuild_cache.dir
-/Users/nch/Desktop/qt/untitled1/build/CMakeFiles/list_install_components.dir
-/Users/nch/Desktop/qt/untitled1/build/CMakeFiles/install.dir
-/Users/nch/Desktop/qt/untitled1/build/CMakeFiles/install/local.dir
-/Users/nch/Desktop/qt/untitled1/build/CMakeFiles/install/strip.dir
-/Users/nch/Desktop/qt/untitled1/build/CMakeFiles/Maze_autogen_timestamp_deps.dir
-/Users/nch/Desktop/qt/untitled1/build/CMakeFiles/Maze_autogen.dir
