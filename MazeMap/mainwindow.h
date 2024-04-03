@@ -32,6 +32,10 @@ private slots:
 
     void on_pushButton_easy_clicked();
 
+    void on_pushButton_difficulty_clicked();
+
+    void on_pushButton_middle_clicked();
+
 private:
     Ui::MainWindow *ui;
 

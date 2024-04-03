@@ -1,20 +1,48 @@
 #include "mapcreate.h"
 #include <random>
+#include <cmath>
 
 
 MapCreate::MapCreate(QWidget *parent, int L) : QWidget(parent), L(L), mazeMap(L, std::vector<int>(L, 0)){
 
     initializ();
-    dfs(2,2);
 
-    mazeMap[2][1] = route;
+    if(L == 34){
+        dfs(2,2);
 
-    for(int i = L - 3 ; i >= 0 ; i--){
-        if(mazeMap[i][L-3] == route){
-            mazeMap[i][L-2] = route;
-            break;
+        mazeMap[2][1] = route;
+
+        for(int i = L - 3 ; i >= 0 ; i--){
+            if(mazeMap[i][L-3] == route){
+                mazeMap[i][L-2] = route;
+                break;
+            }
         }
     }
+    else if(L == 64){
+        prim();
+
+        mazeMap[2][1] = route;
+
+        for(int i = L - 3 ; i >= 0 ; i--){
+            if(mazeMap[i][L-3] == route){
+                mazeMap[i][L-2] = route;
+                break;
+            }
+        }
+    }
+
+}
+
+void MapCreate::initializ(){
+
+    for(int i = 0 ; i < L ; i++){
+        mazeMap[i][0] = route;
+        mazeMap[0][i] = route;
+        mazeMap[i][L-1] = route;
+        mazeMap[L-1][i] = route;
+    }
+
 }
 
 void MapCreate::dfs(int x, int y){
@@ -46,9 +74,9 @@ void MapCreate::dfs(int x, int y){
             if(mazeMap[dx][dy] == route) break;
 
             int count = 0;
-            for(int j = dx - 1 ; j < dx + 2 ; j++){
-                for(int k = dy -1 ; k < dy + 2 ; k++){
-                    if(abs(j-dx) + abs(k-dy) == 1 && mazeMap[j][k] == route) count++;
+            for(int j = dx - 1 ; j <= dx + 1 ; j++){
+                for(int k = dy -1 ; k <= dy + 1 ; k++){
+                    if(abs(dx-j) + abs(dy - k) == 1 && mazeMap[j][k] == route) count++;
                 }
             }
             if(count > 1) break;
@@ -62,17 +90,50 @@ void MapCreate::dfs(int x, int y){
 
 }
 
-void MapCreate::initializ(){
+void MapCreate::prim(){
 
-    for(int i = 0 ; i < L ; i++){
-        mazeMap[i][0] = route;
-        mazeMap[0][i] = route;
-        mazeMap[i][L-1] = route;
-        mazeMap[L-1][i] = route;
+    std::random_device rd;
+    std::mt19937 eng(rd());
+
+    std::vector<int> xQueue;
+    std::vector<int> yQueue;
+
+    xQueue.push_back(2);
+    yQueue.push_back(2);
+
+    while(xQueue.size()){
+
+        std::uniform_int_distribution<> distr(0, xQueue.size()-1);
+        int randNum = distr(eng);
+        int x = xQueue[randNum];
+        int y = yQueue[randNum];
+
+        int count = 0;
+
+        for(int i = x-1 ; i <= x+1 ; i++){
+            for(int j = y-1 ; j <= y+1 ; j++){
+                if(abs(x-i) + abs(y-j) == 1 && mazeMap[i][j] == route) count++;
+            }
+        }
+
+        if(count <= 1){
+            mazeMap[x][y] = route;
+
+            for(int i = x-1 ; i <= x+1 ; i++){
+                for(int j = y-1 ; j <= y+1 ; j++){
+                    if(abs(x-i) + abs(y-j) == 1 && mazeMap[i][j] == wall){
+                        xQueue.push_back(i);
+                        yQueue.push_back(j);
+                    }
+                }
+            }
+        }
+
+        xQueue.erase(xQueue.begin()+randNum);
+        yQueue.erase(yQueue.begin()+randNum);
+
     }
-
 }
-
 // 已知bug -> painting後視窗大小對不上 會留白,待處理;
 //目前想法: 放一張背景圖片 並縮小迷宮展示範圍 右手邊及正下方可做其他功能處理.
 
