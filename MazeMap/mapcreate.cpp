@@ -31,7 +31,19 @@ MapCreate::MapCreate(QWidget *parent, int L) : QWidget(parent), L(L), mazeMap(L,
             }
         }
     }
+    else if(L == 94){
+        prim();
 
+        mazeMap[2][1] = route;
+
+        for(int i = L - 3 ; i >= 0 ; i--){
+            if(mazeMap[i][L-3] == route){
+                mazeMap[i][L-2] = route;
+                break;
+            }
+        }
+        randomDivide();
+    }
 }
 
 void MapCreate::initializ(){
@@ -132,6 +144,19 @@ void MapCreate::prim(){
         xQueue.erase(xQueue.begin()+randNum);
         yQueue.erase(yQueue.begin()+randNum);
 
+    }
+}
+
+void MapCreate::randomDivide(){
+
+    std::random_device rd;
+    std::mt19937 eng(rd());
+    std::uniform_int_distribution distr(0,4);
+
+    for(int i = 3 ; i <= L - 3 ; i++){
+        for(int j = 3 ; j <= L - 3 ; j++){
+            if(distr(eng) == 0) mazeMap[i][j] = route;
+        }
     }
 }
 // 已知bug -> painting後視窗大小對不上 會留白,待處理;

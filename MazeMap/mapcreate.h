@@ -13,6 +13,7 @@ public:
     void initializ();
     void dfs(int, int);
     void prim();
+    void randomDivide();
 protected:
     void paintEvent(QPaintEvent *event) override;
 private:
