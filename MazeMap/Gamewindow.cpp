@@ -2,10 +2,10 @@
 #include "ui_gamewindow.h"
 #include "mapcreate.h"
 
-GameWindow::GameWindow(QWidget *parent)
+GameWindow::GameWindow(QWidget *parent, int L)
     : QMainWindow(parent)
     , ui(new Ui::GameWindow)
-    , mapCreate(new MapCreate(this))
+    , mapCreate(new MapCreate(this, L))
 {
     ui->setupUi(this);
     setCentralWidget(mapCreate);

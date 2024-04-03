@@ -300,11 +300,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "MazeMap_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "MazeMap_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "MazeMap_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "MazeMap::@6890427a1f51a3e7e1df",

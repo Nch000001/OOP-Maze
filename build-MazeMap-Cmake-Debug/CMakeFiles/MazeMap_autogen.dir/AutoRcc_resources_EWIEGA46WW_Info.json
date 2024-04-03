@@ -5,7 +5,11 @@
 	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/nch/Desktop/Maze/MazeMap",
 	"CMAKE_SOURCE_DIR" : "/Users/nch/Desktop/Maze/MazeMap",
 	"INCLUDE_DIR" : "/Users/nch/Desktop/Maze/build-MazeMap-Cmake-Debug/MazeMap_autogen/include",
-	"INPUTS" : [ "/Users/nch/Desktop/Maze/MazeMap/images/GameBackground.jpeg" ],
+	"INPUTS" : 
+	[
+		"/Users/nch/Desktop/Maze/MazeMap/images/test.jpeg",
+		"/Users/nch/Desktop/Maze/MazeMap/images/GameBackground.jpeg"
+	],
 	"LOCK_FILE" : "/Users/nch/Desktop/Maze/build-MazeMap-Cmake-Debug/CMakeFiles/MazeMap_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "resources" ],

@@ -26,8 +26,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">
-background-color: rgb(111, 255, 237);</string>
+   <string notr="true">background-color: rgb(111, 255, 237);</string>
   </property>
   <property name="documentMode">
    <bool>false</bool>
@@ -46,15 +45,21 @@ background-color: rgb(111, 255, 237);</string>
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>-40</y>
+      <y>-30</y>
       <width>600</width>
       <height>480</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
      <widget class="QLabel" name="label_Title">
       <property name="geometry">
        <rect>
@@ -191,7 +196,7 @@ background-color: rgb(111, 255, 237);</string>
       <property name="geometry">
        <rect>
         <x>250</x>
-        <y>250</y>
+        <y>240</y>
         <width>102</width>
         <height>67</height>
        </rect>

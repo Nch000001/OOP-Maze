@@ -207,7 +207,7 @@ build MazeMap_autogen/timestamp MazeMap_autogen/mocs_compilation.cpp | ${cmake_n
 #############################################
 # Custom command for MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp
 
-build MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND /Users/nch/Desktop/Maze/MazeMap/resources.qrc CMakeFiles/MazeMap_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json /Users/nch/Desktop/Maze/MazeMap/images/GameBackground.jpeg /Users/nch/Qt/6.8.0/macos/./libexec/rcc || MazeMap_autogen MazeMap_autogen_timestamp_deps
+build MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND /Users/nch/Desktop/Maze/MazeMap/resources.qrc CMakeFiles/MazeMap_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json /Users/nch/Desktop/Maze/MazeMap/images/test.jpeg /Users/nch/Desktop/Maze/MazeMap/images/GameBackground.jpeg /Users/nch/Qt/6.8.0/macos/./libexec/rcc || MazeMap_autogen MazeMap_autogen_timestamp_deps
   COMMAND = cd /Users/nch/Desktop/Maze/build-MazeMap-Cmake-Debug && /Users/nch/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autorcc /Users/nch/Desktop/Maze/build-MazeMap-Cmake-Debug/CMakeFiles/MazeMap_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug
   DESC = Automatic RCC for resources.qrc
   restat = 1
@@ -216,7 +216,7 @@ build MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}MazeM
 #############################################
 # Phony custom command for CMakeFiles/MazeMap_autogen_timestamp_deps
 
-build CMakeFiles/MazeMap_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/MazeMap_autogen_timestamp_deps: phony /Users/nch/Qt/6.8.0/macos/./libexec/moc /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/nch/Qt/6.8.0/macos/./libexec/uic
+build CMakeFiles/MazeMap_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/MazeMap_autogen_timestamp_deps: phony /Users/nch/Qt/6.8.0/macos/./libexec/uic /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/nch/Qt/6.8.0/macos/./libexec/moc /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore
 
 
 #############################################

@@ -166,7 +166,7 @@ endif()
 # _directory_contents at /Users/nch/Qt/6.8.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/nch/Desktop/Maze/MazeMap/*.ui")
 set(OLD_GLOB
-  "/Users/nch/Desktop/Maze/MazeMap/GameWindow.ui"
+  "/Users/nch/Desktop/Maze/MazeMap/gamewindow.ui"
   "/Users/nch/Desktop/Maze/MazeMap/mainwindow.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

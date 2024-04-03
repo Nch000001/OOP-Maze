@@ -50,8 +50,7 @@ public:
         font.setPointSize(13);
         MainWindow->setFont(font);
         MainWindow->setAcceptDrops(true);
-        MainWindow->setStyleSheet(QString::fromUtf8("\n"
-"background-color: rgb(111, 255, 237);"));
+        MainWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(111, 255, 237);"));
         MainWindow->setDocumentMode(false);
         MainWindow->setDockNestingEnabled(false);
         MainWindow->setUnifiedTitleAndToolBarOnMac(false);
@@ -60,9 +59,11 @@ public:
         centralwidget->setMouseTracking(false);
         stackedWidget = new QStackedWidget(centralwidget);
         stackedWidget->setObjectName("stackedWidget");
-        stackedWidget->setGeometry(QRect(0, -40, 600, 480));
+        stackedWidget->setGeometry(QRect(0, -30, 600, 480));
+        stackedWidget->setStyleSheet(QString::fromUtf8(""));
         page = new QWidget();
         page->setObjectName("page");
+        page->setStyleSheet(QString::fromUtf8(""));
         label_Title = new QLabel(page);
         label_Title->setObjectName("label_Title");
         label_Title->setGeometry(QRect(260, 110, 72, 57));
@@ -108,7 +109,7 @@ public:
         pushButton_middle->setStyleSheet(QString::fromUtf8("color: rgb(60, 81, 144);"));
         pushButton_difficulty = new QPushButton(page_2);
         pushButton_difficulty->setObjectName("pushButton_difficulty");
-        pushButton_difficulty->setGeometry(QRect(250, 250, 102, 67));
+        pushButton_difficulty->setGeometry(QRect(250, 240, 102, 67));
         pushButton_difficulty->setFont(font3);
         pushButton_difficulty->setStyleSheet(QString::fromUtf8("color: rgb(61, 10, 15);"));
         stackedWidget->addWidget(page_2);
@@ -126,7 +127,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(1);
+        stackedWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);

@@ -2,6 +2,7 @@
 #include "./ui_mainwindow.h"
 #include "gamewindow.h"
 #include "./ui_gamewindow.h"
+#include "mapcreate.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -38,7 +39,7 @@ void MainWindow::closeEvent(QCloseEvent *event){
                              "QPushButton {"
                              "color: #FFFFFF;"             // 按钮文本颜色
                              "background-color: #555555;"  // 按钮背景颜色
-                             "border: 3px solid #AAAAAA;"  // 按钮边框
+                             "border: 3px solid #AAAAAA;"  // 按钮边
                              "}");
 
     int ret = messageBox.exec();
@@ -68,7 +69,8 @@ void MainWindow::on_pushButton_easy_clicked()
 {
     this->hide();
 
-    GameWindow *gameWindow = new GameWindow(this);
+    GameWindow *gameWindow = new GameWindow(this, 64);
+    // MapCreate *easyMap = new MapCreate(this, 30);
     gameWindow->setAttribute(Qt::WA_DeleteOnClose);
     connect(gameWindow, &GameWindow::destroyed, [this](){
         this->show();
