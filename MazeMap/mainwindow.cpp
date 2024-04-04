@@ -70,7 +70,6 @@ void MainWindow::on_pushButton_easy_clicked()
     this->hide();
 
     GameWindow *gameWindow = new GameWindow(this, 34);
-    // MapCreate *easyMap = new MapCreate(this, 30);
     gameWindow->setAttribute(Qt::WA_DeleteOnClose);
     connect(gameWindow, &GameWindow::destroyed, [this](){
         this->show();
@@ -86,7 +85,6 @@ void MainWindow::on_pushButton_middle_clicked()
     this->hide();
 
     GameWindow *gameWindow = new GameWindow(this, 64);
-    // MapCreate *easyMap = new MapCreate(this, 30);
     gameWindow->setAttribute(Qt::WA_DeleteOnClose);
     connect(gameWindow, &GameWindow::destroyed, [this](){
         this->show();
@@ -101,7 +99,6 @@ void MainWindow::on_pushButton_difficulty_clicked()
     this->hide();
 
     GameWindow *gameWindow = new GameWindow(this, 94);
-    // MapCreate *easyMap = new MapCreate(this, 30);
     gameWindow->setAttribute(Qt::WA_DeleteOnClose);
     connect(gameWindow, &GameWindow::destroyed, [this](){
         this->show();

@@ -4,10 +4,8 @@
 #include <QMainWindow>
 #include <QDialog>
 #include <QWidget>
-#include <QDebug>
 #include <QMessageBox>
 #include <QCloseEvent>
-#include <QDebug>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

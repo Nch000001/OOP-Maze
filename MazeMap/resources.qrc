@@ -2,5 +2,6 @@
     <qresource prefix="/images">
         <file>images/GameBackground.jpeg</file>
         <file>images/test.jpeg</file>
+        <file>images/drawingPin.png</file>
     </qresource>
 </RCC>

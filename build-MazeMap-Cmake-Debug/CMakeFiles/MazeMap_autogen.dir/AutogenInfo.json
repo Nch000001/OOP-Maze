@@ -369,6 +369,18 @@
 			"MU",
 			"EWIEGA46WW/moc_mapcreate.cpp",
 			null
+		],
+		[
+			"/Users/nch/Desktop/Maze/MazeMap/mazescene.h",
+			"MU",
+			"EWIEGA46WW/moc_mazescene.cpp",
+			null
+		],
+		[
+			"/Users/nch/Desktop/Maze/MazeMap/player.h",
+			"MU",
+			"EWIEGA46WW/moc_player.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -431,7 +443,9 @@
 		[ "/Users/nch/Desktop/Maze/MazeMap/gamewindow.cpp", "MU", null ],
 		[ "/Users/nch/Desktop/Maze/MazeMap/main.cpp", "MU", null ],
 		[ "/Users/nch/Desktop/Maze/MazeMap/mainwindow.cpp", "MU", null ],
-		[ "/Users/nch/Desktop/Maze/MazeMap/mapcreate.cpp", "MU", null ]
+		[ "/Users/nch/Desktop/Maze/MazeMap/mapcreate.cpp", "MU", null ],
+		[ "/Users/nch/Desktop/Maze/MazeMap/mazescene.cpp", "MU", null ],
+		[ "/Users/nch/Desktop/Maze/MazeMap/player.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

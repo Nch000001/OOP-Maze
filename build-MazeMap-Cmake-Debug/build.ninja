@@ -89,6 +89,22 @@ build CMakeFiles/MazeMap.dir/mapcreate.cpp.o: CXX_COMPILER__MazeMap_unscanned_De
   OBJECT_DIR = CMakeFiles/MazeMap.dir
   OBJECT_FILE_DIR = CMakeFiles/MazeMap.dir
 
+build CMakeFiles/MazeMap.dir/player.cpp.o: CXX_COMPILER__MazeMap_unscanned_Debug /Users/nch/Desktop/Maze/MazeMap/player.cpp || cmake_object_order_depends_target_MazeMap
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/MazeMap.dir/player.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
+  INCLUDES = -I/Users/nch/Desktop/Maze/build-MazeMap-Cmake-Debug/MazeMap_autogen/include -isystem /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/nch/Qt/6.8.0/macos/lib -isystem /Users/nch/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/nch/Qt/6.8.0/macos/include -isystem /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/MazeMap.dir
+  OBJECT_FILE_DIR = CMakeFiles/MazeMap.dir
+
+build CMakeFiles/MazeMap.dir/mazescene.cpp.o: CXX_COMPILER__MazeMap_unscanned_Debug /Users/nch/Desktop/Maze/MazeMap/mazescene.cpp || cmake_object_order_depends_target_MazeMap
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/MazeMap.dir/mazescene.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
+  INCLUDES = -I/Users/nch/Desktop/Maze/build-MazeMap-Cmake-Debug/MazeMap_autogen/include -isystem /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/nch/Qt/6.8.0/macos/lib -isystem /Users/nch/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/nch/Qt/6.8.0/macos/include -isystem /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/MazeMap.dir
+  OBJECT_FILE_DIR = CMakeFiles/MazeMap.dir
+
 build CMakeFiles/MazeMap.dir/MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp.o: CXX_COMPILER__MazeMap_unscanned_Debug /Users/nch/Desktop/Maze/build-MazeMap-Cmake-Debug/MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp || cmake_object_order_depends_target_MazeMap
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/MazeMap.dir/MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp.o.d
@@ -105,7 +121,7 @@ build CMakeFiles/MazeMap.dir/MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp.o: CXX
 #############################################
 # Link the executable MazeMap.app/Contents/MacOS/MazeMap
 
-build MazeMap.app/Contents/MacOS/MazeMap: CXX_EXECUTABLE_LINKER__MazeMap_Debug CMakeFiles/MazeMap.dir/MazeMap_autogen/mocs_compilation.cpp.o CMakeFiles/MazeMap.dir/main.cpp.o CMakeFiles/MazeMap.dir/mainwindow.cpp.o CMakeFiles/MazeMap.dir/gamewindow.cpp.o CMakeFiles/MazeMap.dir/mapcreate.cpp.o CMakeFiles/MazeMap.dir/MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp.o | /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore || MazeMap_autogen MazeMap_autogen_timestamp_deps
+build MazeMap.app/Contents/MacOS/MazeMap: CXX_EXECUTABLE_LINKER__MazeMap_Debug CMakeFiles/MazeMap.dir/MazeMap_autogen/mocs_compilation.cpp.o CMakeFiles/MazeMap.dir/main.cpp.o CMakeFiles/MazeMap.dir/mainwindow.cpp.o CMakeFiles/MazeMap.dir/gamewindow.cpp.o CMakeFiles/MazeMap.dir/mapcreate.cpp.o CMakeFiles/MazeMap.dir/player.cpp.o CMakeFiles/MazeMap.dir/mazescene.cpp.o CMakeFiles/MazeMap.dir/MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp.o | /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore || MazeMap_autogen MazeMap_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7
   LINK_LIBRARIES = -Wl,-rpath,/Users/nch/Qt/6.8.0/macos/lib  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -Xlinker -framework -Xlinker OpenGL  -Xlinker -framework -Xlinker AGL  -framework AppKit  -framework ImageIO  -framework Metal
   LINK_PATH = -iframework /Users/nch/Qt/6.8.0/macos/lib
@@ -207,7 +223,7 @@ build MazeMap_autogen/timestamp MazeMap_autogen/mocs_compilation.cpp | ${cmake_n
 #############################################
 # Custom command for MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp
 
-build MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND /Users/nch/Desktop/Maze/MazeMap/resources.qrc CMakeFiles/MazeMap_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json /Users/nch/Desktop/Maze/MazeMap/images/test.jpeg /Users/nch/Desktop/Maze/MazeMap/images/GameBackground.jpeg /Users/nch/Qt/6.8.0/macos/./libexec/rcc || MazeMap_autogen MazeMap_autogen_timestamp_deps
+build MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND /Users/nch/Desktop/Maze/MazeMap/resources.qrc CMakeFiles/MazeMap_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json /Users/nch/Desktop/Maze/MazeMap/images/test.jpeg /Users/nch/Desktop/Maze/MazeMap/images/drawingPin.png /Users/nch/Desktop/Maze/MazeMap/images/GameBackground.jpeg /Users/nch/Qt/6.8.0/macos/./libexec/rcc || MazeMap_autogen MazeMap_autogen_timestamp_deps
   COMMAND = cd /Users/nch/Desktop/Maze/build-MazeMap-Cmake-Debug && /Users/nch/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autorcc /Users/nch/Desktop/Maze/build-MazeMap-Cmake-Debug/CMakeFiles/MazeMap_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug
   DESC = Automatic RCC for resources.qrc
   restat = 1
@@ -216,7 +232,7 @@ build MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}MazeM
 #############################################
 # Phony custom command for CMakeFiles/MazeMap_autogen_timestamp_deps
 
-build CMakeFiles/MazeMap_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/MazeMap_autogen_timestamp_deps: phony /Users/nch/Qt/6.8.0/macos/./libexec/uic /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/nch/Qt/6.8.0/macos/./libexec/moc /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore
+build CMakeFiles/MazeMap_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/MazeMap_autogen_timestamp_deps: phony /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/nch/Qt/6.8.0/macos/./libexec/uic /Users/nch/Qt/6.8.0/macos/./libexec/moc /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore
 
 
 #############################################

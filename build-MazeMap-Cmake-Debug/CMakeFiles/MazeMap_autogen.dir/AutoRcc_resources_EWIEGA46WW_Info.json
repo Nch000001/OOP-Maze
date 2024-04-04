@@ -8,6 +8,7 @@
 	"INPUTS" : 
 	[
 		"/Users/nch/Desktop/Maze/MazeMap/images/test.jpeg",
+		"/Users/nch/Desktop/Maze/MazeMap/images/drawingPin.png",
 		"/Users/nch/Desktop/Maze/MazeMap/images/GameBackground.jpeg"
 	],
 	"LOCK_FILE" : "/Users/nch/Desktop/Maze/build-MazeMap-Cmake-Debug/CMakeFiles/MazeMap_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",

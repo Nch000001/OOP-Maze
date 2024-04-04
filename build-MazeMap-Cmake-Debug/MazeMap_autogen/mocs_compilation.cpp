@@ -2,3 +2,4 @@
 #include "EWIEGA46WW/moc_gamewindow.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_mapcreate.cpp"
+#include "EWIEGA46WW/moc_mazescene.cpp"

@@ -95,12 +95,15 @@ MazeMap_autogen/timestamp: \
   /Users/nch/Desktop/Maze/MazeMap/mainwindow.ui \
   /Users/nch/Desktop/Maze/MazeMap/mapcreate.cpp \
   /Users/nch/Desktop/Maze/MazeMap/mapcreate.h \
+  /Users/nch/Desktop/Maze/MazeMap/mazescene.cpp \
+  /Users/nch/Desktop/Maze/MazeMap/mazescene.h \
+  /Users/nch/Desktop/Maze/MazeMap/player.cpp \
+  /Users/nch/Desktop/Maze/MazeMap/player.h \
   /Users/nch/Desktop/Maze/MazeMap/resources.qrc \
   .qtc/package-manager/auto-setup.cmake \
   CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   MazeMap_autogen/moc_predefs.h \
-  /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
   /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QList \
   /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
   /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QRect \
@@ -234,7 +237,10 @@ MazeMap_autogen/timestamp: \
   /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/QCloseEvent \
+  /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/QKeyEvent \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/QPainter \
+  /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/QPen \
+  /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/QTransform \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
@@ -256,6 +262,7 @@ MazeMap_autogen/timestamp: \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
+  /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
@@ -276,13 +283,24 @@ MazeMap_autogen/timestamp: \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsItem \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsPixmapItem \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsRectItem \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsScene \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMessageBox \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialogbuttonbox.h \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmessagebox.h \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \

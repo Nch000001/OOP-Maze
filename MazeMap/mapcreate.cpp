@@ -158,11 +158,12 @@ void MapCreate::randomDivide(){
             if(distr(eng) == 0) mazeMap[i][j] = route;
         }
     }
+
 }
 // 已知bug -> painting後視窗大小對不上 會留白,待處理;
 //目前想法: 放一張背景圖片 並縮小迷宮展示範圍 右手邊及正下方可做其他功能處理.
 
-void MapCreate::paintEvent(QPaintEvent *event){
+/*void MapCreate::paintEvent(QPaintEvent *event){
 
     QPainter painter(this);
 
@@ -187,7 +188,7 @@ void MapCreate::paintEvent(QPaintEvent *event){
         }
     }
 
-    /*int clientWidth = this->width(); 舊版填不滿整個窗口的做法
+    int clientWidth = this->width(); 舊版填不滿整個窗口的做法
     int clientHeight = this->height();
     int cellWidth = clientWidth / L;
     int cellHeight = clientHeight / L;
@@ -201,6 +202,6 @@ void MapCreate::paintEvent(QPaintEvent *event){
                 painter.fillRect(j * cellWidth, i * cellHeight, cellWidth, cellHeight, Qt::white);
             }
         }
-    }*/
+    }
 
-}
+}*/

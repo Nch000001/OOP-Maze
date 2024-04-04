@@ -45,6 +45,8 @@ set(OLD_GLOB
   "/Users/nch/Desktop/Maze/MazeMap/main.cpp"
   "/Users/nch/Desktop/Maze/MazeMap/mainwindow.cpp"
   "/Users/nch/Desktop/Maze/MazeMap/mapcreate.cpp"
+  "/Users/nch/Desktop/Maze/MazeMap/mazescene.cpp"
+  "/Users/nch/Desktop/Maze/MazeMap/player.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -66,6 +68,8 @@ set(OLD_GLOB
   "/Users/nch/Desktop/Maze/MazeMap/gamewindow.h"
   "/Users/nch/Desktop/Maze/MazeMap/mainwindow.h"
   "/Users/nch/Desktop/Maze/MazeMap/mapcreate.h"
+  "/Users/nch/Desktop/Maze/MazeMap/mazescene.h"
+  "/Users/nch/Desktop/Maze/MazeMap/player.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
