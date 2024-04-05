@@ -28,5 +28,5 @@ private:
     Player *player;
     QGraphicsScene *scene;
     QGraphicsView *view;
-    int cellSize = 60;
+    int cellSize = 100;
 };

@@ -20,7 +20,7 @@ public:
     bool isWall(int x, int y);
     bool isDone(int x, int y);
 private:
-    int cellSize = 60;
+    int cellSize = 100;
     std::vector<std::vector<int> > data;
 };
 

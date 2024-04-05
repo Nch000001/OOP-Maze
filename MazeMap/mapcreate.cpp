@@ -30,6 +30,7 @@ MapCreate::MapCreate(QWidget *parent, int L) : QWidget(parent), L(L), mazeMap(L,
                 break;
             }
         }
+        randomDivide();
     }
     else if(L == 94){
         prim();
@@ -42,7 +43,6 @@ MapCreate::MapCreate(QWidget *parent, int L) : QWidget(parent), L(L), mazeMap(L,
                 break;
             }
         }
-        randomDivide();
     }
 
     for(int i = 0 ; i < L ; i++){

@@ -12,17 +12,16 @@ GameWindow::GameWindow(QWidget *parent, int L)
     //取得迷宮陣列的數據;
     mazeScene->generateMaze(mapCreate->getMazeData());
 
-    view = new QGraphicsView(mazeScene);
     //創立一個角色並放進迷宮中
     QPixmap playerPixmap(":/images/images/drawingPin.png");
     playerPixmap = playerPixmap.scaled(cellSize, cellSize, Qt::KeepAspectRatio);
     player = new Player(playerPixmap);
     mazeScene->addItem(player);
-    player->setPos(2*cellSize,1*cellSize);
+    player->setPos(1*cellSize,2*cellSize);
 
     //mazeScene->fogOfWar(2*cellSize,2*cellSize);
+    view = new QGraphicsView(mazeScene);
     setCentralWidget(view);
-    view->setFocus();
 
     //禁用滾動條
     view->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
