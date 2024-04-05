@@ -3,6 +3,7 @@
 #include <QGraphicsPixmapItem>
 #include <QGraphicsItem>
 #include <QPixmap>
+#include <vector>
 
 class Player : public QGraphicsPixmapItem {
 public:
@@ -15,7 +16,8 @@ public:
 private:
     int posX, posY;
     int viewRange;
-    int cellSize = 20;
+    int cellSize = 60;
+    std::vector<std::vector <int> > data;
 };
 
 #endif // PLAYER_H

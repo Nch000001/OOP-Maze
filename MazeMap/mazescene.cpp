@@ -4,8 +4,7 @@ MazeScene::MazeScene(QObject *parent) : QGraphicsScene(parent) {}
 
 void MazeScene::generateMaze(const std::vector<std::vector<int> >& mazeData){
 
-    mazeWidth = mazeData.size();
-    mazeHeight = mazeData[0].size();
+    data = mazeData;
 
     for(int i = 0 ; i < mazeData.size() ; i++){
         for(int j = 0 ; j < mazeData.size() ; j++){
@@ -51,3 +50,13 @@ void MazeScene::fogOfWar(int playerRow, int playerCol) {
     }
 }
 
+bool MazeScene::isWall(int x, int y){
+
+    if(x < 0 || x >= data.size() - 1 || y < 0 || y >= data.size() - 1) return true;
+    return (data[x][y] == 0);
+}
+
+bool MazeScene::isDone(int x, int y){
+
+    return(y == data.size() - 2);
+}

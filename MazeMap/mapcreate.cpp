@@ -44,6 +44,13 @@ MapCreate::MapCreate(QWidget *parent, int L) : QWidget(parent), L(L), mazeMap(L,
         }
         randomDivide();
     }
+
+    for(int i = 0 ; i < L ; i++){
+        mazeMap[i][0] = wall;
+        mazeMap[0][i] = wall;
+        mazeMap[i][L-1] = wall;
+        mazeMap[L-1][i] = wall;
+    }
 }
 
 void MapCreate::initializ(){

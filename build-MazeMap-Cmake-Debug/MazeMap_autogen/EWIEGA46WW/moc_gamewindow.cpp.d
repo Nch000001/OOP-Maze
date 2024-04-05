@@ -272,13 +272,17 @@
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsScene \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMessageBox \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialogbuttonbox.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmessagebox.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/nch/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \

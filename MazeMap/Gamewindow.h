@@ -1,7 +1,9 @@
 #include <QMainWindow>
 #include <QKeyEvent>
 #include <QGraphicsView>
+#include <QGraphicsScene>
 #include <QPixmap>
+#include <QMessageBox>
 #include "mapcreate.h"
 #include "mazescene.h"
 #include "player.h"
@@ -26,5 +28,5 @@ private:
     Player *player;
     QGraphicsScene *scene;
     QGraphicsView *view;
-    int cellSize = 20;
+    int cellSize = 60;
 };

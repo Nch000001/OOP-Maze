@@ -1,4 +1,5 @@
 #include "player.h"
+#include <vector>
 #include <QDebug>
 Player::Player(const QPixmap &pixmap, QGraphicsItem *parent)
     : QGraphicsPixmapItem(pixmap, parent)

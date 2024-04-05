@@ -17,10 +17,11 @@ public:
     void generateMaze(const std::vector<std::vector<int> >& mazeData);
     void addMazeCell(int x, int y, bool isWall);
     void fogOfWar(int playerRow, int playerCol);
-    QGraphicsItem* findCellItem(int cellX, int cellY);
+    bool isWall(int x, int y);
+    bool isDone(int x, int y);
 private:
-    int cellSize = 20;
-    int mazeWidth, mazeHeight;
+    int cellSize = 60;
+    std::vector<std::vector<int> > data;
 };
 
 #endif // MAZESCENE_H
