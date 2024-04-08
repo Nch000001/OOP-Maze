@@ -13,7 +13,7 @@ GameWindow::GameWindow(QWidget *parent, int L)
     mazeScene->generateMaze(mapCreate->getMazeData());
 
     //創立一個角色並放進迷宮中
-    QPixmap playerPixmap(":/images/images/drawingPin.png");
+    QPixmap playerPixmap(":/images/images/player.png");
     playerPixmap = playerPixmap.scaled(cellSize, cellSize, Qt::KeepAspectRatio);
     player = new Player(playerPixmap);
     mazeScene->addItem(player);
