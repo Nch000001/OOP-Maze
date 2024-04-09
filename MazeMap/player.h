@@ -16,7 +16,7 @@ public:
 private:
     int posX, posY;
     int viewRange;
-    int cellSize = 60;
+    int cellSize = 100;
     std::vector<std::vector <int> > data;
 };
 
