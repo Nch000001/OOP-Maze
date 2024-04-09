@@ -27,7 +27,8 @@ void MazeScene::addMazeCell(int x, int y, bool isWall){
 
 void MazeScene::fogOfWar(int playerRow, int playerCol) {
 
-    const int viewRange = 1;
+    int viewRange = 1;
+    if(data.size() == 94) viewRange = 2;
     /*for (auto& item : this->items()) {
         item->setVisible(false);
 
