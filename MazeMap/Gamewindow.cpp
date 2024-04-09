@@ -13,7 +13,7 @@ GameWindow::GameWindow(QWidget *parent, int L)
     mazeScene->generateMaze(mapCreate->getMazeData());
 
     //創立一個角色並放進迷宮中
-    QPixmap playerPixmap(":/images/images/drawingPin.png");
+    QPixmap playerPixmap(":/images/images/player.png");
     playerPixmap = playerPixmap.scaled(cellSize, cellSize, Qt::KeepAspectRatio);
     player = new Player(playerPixmap);
     mazeScene->addItem(player);
@@ -23,6 +23,7 @@ GameWindow::GameWindow(QWidget *parent, int L)
     view = new QGraphicsView(mazeScene);
     setCentralWidget(view);
 
+    view->centerOn(player);
     //禁用滾動條
     view->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     view->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
@@ -77,17 +78,14 @@ void GameWindow::keyPressEvent(QKeyEvent *event){
                                      "color: #FFFFFF;"             // 文字颜色
                                      "}"
                                      "QPushButton {"
-                                     "color: #FFFFFF;"             // 按钮文本颜色
+                                     "color: #FFFFFF;"             // 按钮文字
                                      "background-color: #555555;"  // 按钮背景颜色
-                                     "border: 3px solid #AAAAAA;"  // 按钮边
+                                     "border: 3px solid #AAAAAA;"  // 按钮邊框
                                      "}");
 
             int ret = messageBox.exec();
-            qDebug() << "消息框返回值：" << ret;
             if (ret == QMessageBox::Yes) {
                 this->close();
-            }else{
-                qDebug() << "用户选择了否";
             }
 
         }

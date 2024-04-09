@@ -37,9 +37,9 @@ void MainWindow::closeEvent(QCloseEvent *event){
                              "color: #FFFFFF;"             // 文字颜色
                              "}"
                              "QPushButton {"
-                             "color: #FFFFFF;"             // 按钮文本颜色
-                             "background-color: #555555;"  // 按钮背景颜色
-                             "border: 3px solid #AAAAAA;"  // 按钮边
+                             "color: #FFFFFF;"             // 按钮文字
+                             "background-color: #555555;"  // 按钮背景
+                             "border: 3px solid #AAAAAA;"  // 按钮邊框
                              "}");
 
     int ret = messageBox.exec();

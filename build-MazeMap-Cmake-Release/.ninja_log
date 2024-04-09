@@ -1,0 +1,18 @@
+# ninja log v5
+1375	1519	1712680832675793298	MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp	e3569874f5690ea9
+1	1375	1712680832476141272	MazeMap_autogen/mocs_compilation.cpp	1cfb1278d8e9b6a9
+1	1375	1712680832476141272	/Users/nch/Desktop/Maze/build-MazeMap-Cmake-Release/MazeMap_autogen/mocs_compilation.cpp	1cfb1278d8e9b6a9
+1521	11060	1712680842204267635	CMakeFiles/MazeMap.dir/gamewindow.cpp.o	c40e7f871b8d5953
+1375	1519	1712680832675793298	/Users/nch/Desktop/Maze/build-MazeMap-Cmake-Release/MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp	e3569874f5690ea9
+1	1375	1712680832476141272	/Users/nch/Desktop/Maze/build-MazeMap-Cmake-Release/MazeMap_autogen/timestamp	1cfb1278d8e9b6a9
+1525	9263	1712680840373532497	CMakeFiles/MazeMap.dir/player.cpp.o	349fcb316add9543
+1	55	0	/Users/nch/Desktop/Maze/build-MazeMap-Cmake-Release/CMakeFiles/cmake.verify_globs	8de763885cc75094
+1519	10000	1712680841123379917	CMakeFiles/MazeMap.dir/main.cpp.o	5b7a78df30eabf4e
+10001	11919	1712680843074468428	CMakeFiles/MazeMap.dir/MazeMap_autogen/EWIEGA46WW/qrc_resources.cpp.o	2616f1ce77010219
+14062	14579	1712680845725143343	MazeMap.app/Contents/MacOS/MazeMap	656dda4e2b8ad1a1
+9269	14062	1712680845210508385	CMakeFiles/MazeMap.dir/mazescene.cpp.o	3b9f3cb8cdd570dd
+1	1375	1712680832476141272	MazeMap_autogen/timestamp	1cfb1278d8e9b6a9
+1519	10964	1712680842091490929	CMakeFiles/MazeMap.dir/MazeMap_autogen/mocs_compilation.cpp.o	4259b0fb5771741e
+1520	11538	1712680842681628752	CMakeFiles/MazeMap.dir/mainwindow.cpp.o	85004ed638a31149
+1523	11140	1712680842283877721	CMakeFiles/MazeMap.dir/mapcreate.cpp.o	970f0d362d226bb1
+2	71	0	/Users/nch/Desktop/Maze/build-MazeMap-Cmake-Release/CMakeFiles/cmake.verify_globs	8de763885cc75094

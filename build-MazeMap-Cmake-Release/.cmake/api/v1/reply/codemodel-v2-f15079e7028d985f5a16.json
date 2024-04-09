@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d24d1445b61071b7bb57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MazeMap",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MazeMap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MazeMap-Release-9a4c417cae7d1c398ae5.json",
+					"name" : "MazeMap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MazeMap_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MazeMap_autogen-Release-684cdef7a66c9276657d.json",
+					"name" : "MazeMap_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MazeMap_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MazeMap_autogen_timestamp_deps-Release-3f8324ef670d507d408c.json",
+					"name" : "MazeMap_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/nch/Desktop/Maze/build-MazeMap-Cmake-Release",
+		"source" : "/Users/nch/Desktop/OOP-Maze/MazeMap"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
