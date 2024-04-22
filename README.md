@@ -23,7 +23,7 @@
 * 成功走出  
 ![成功走出](https://github.com/Nch000001/OOP-Maze/assets/164344855/636701f1-f39d-4659-9071-1b2023126a0a)  
 
-* 退出詢問
+* 退出詢問  
 ![退出詢問](https://github.com/Nch000001/OOP-Maze/assets/164344855/52db03f1-1360-4458-acaf-45ffb6e12b51)
 
 
