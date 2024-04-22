@@ -14,6 +14,9 @@
 * 關卡難度選擇  
 ![難度選擇](https://github.com/Nch000001/OOP-Maze/assets/164344855/b911d2fd-785a-441e-9781-27b0c0a7db1a)  
 
+* 退出詢問  
+![退出詢問](https://github.com/Nch000001/OOP-Maze/assets/164344855/52db03f1-1360-4458-acaf-45ffb6e12b51)
+
 * 遊戲開始介面  
 ![遊戲開始](https://github.com/Nch000001/OOP-Maze/assets/164344855/de0252c0-69cd-42e5-8cca-366f45e89366)  
 
@@ -22,10 +25,6 @@
 
 * 成功走出  
 ![成功走出](https://github.com/Nch000001/OOP-Maze/assets/164344855/636701f1-f39d-4659-9071-1b2023126a0a)  
-
-* 退出詢問  
-![退出詢問](https://github.com/Nch000001/OOP-Maze/assets/164344855/52db03f1-1360-4458-acaf-45ffb6e12b51)
-
 
 # 分工資訊:
 資工1A 李承壎(組長)  
