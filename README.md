@@ -12,7 +12,8 @@
 ![初始畫面](https://github.com/Nch000001/OOP-Maze/assets/164344855/272c7908-5a01-46da-a756-06ba5d1f0d82)  
 
 ### * 退出詢問  
-![退出詢問](https://github.com/Nch000001/OOP-Maze/assets/164344855/61c515e3-4502-4c7f-a029-d1def07cf745)  
+![退出詢問](https://github.com/Nch000001/OOP-Maze/assets/164344855/3c46f428-d7b7-4900-af27-29796ce658f8)  
+
 
 ### * 遊戲規則&玩法  
 ![遊戲規則](https://github.com/Nch000001/OOP-Maze/assets/164344855/92adcfd1-345c-4bcc-9c15-aeee2e5a3b29)  
