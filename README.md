@@ -15,7 +15,8 @@
 ![遊戲規則](https://github.com/Nch000001/OOP-Maze/assets/164344855/92adcfd1-345c-4bcc-9c15-aeee2e5a3b29)  
 
 * 關卡難度選擇  
-![難度選擇](https://github.com/Nch000001/OOP-Maze/assets/164344855/b911d2fd-785a-441e-9781-27b0c0a7db1a)  
+ ![難度選擇](https://github.com/Nch000001/OOP-Maze/assets/164344855/7ce4346b-9ea4-49d5-8e81-68e87bd6fb54)  
+
 
 * 退出詢問  
 ![退出詢問](https://github.com/Nch000001/OOP-Maze/assets/164344855/52db03f1-1360-4458-acaf-45ffb6e12b51)
