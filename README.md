@@ -23,7 +23,7 @@
 ### * 遊戲開始介面  
 ![遊戲開始](https://github.com/Nch000001/OOP-Maze/assets/164344855/de0252c0-69cd-42e5-8cca-366f45e89366)  
 
-### * 開始行走  
+### * 按下任意建開始  
  ![開始行走](https://github.com/Nch000001/OOP-Maze/assets/164344855/52a172b6-7df2-4f72-bd44-c59b576c8502)
 
 ### * 成功走出  
