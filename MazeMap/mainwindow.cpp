@@ -28,7 +28,7 @@ void MainWindow::closeEvent(QCloseEvent *event){
 
     QMessageBox messageBox;
     messageBox.setWindowTitle("退出");
-    messageBox.setText("你确定要退出吗？");
+    messageBox.setText("你確定要退出嗎？");
     messageBox.setStandardButtons(QMessageBox::Yes | QMessageBox::No);
 
 
@@ -63,7 +63,16 @@ void MainWindow::on_pushButton_lastPage_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);
 }
-
+//返回下一頁的功能鍵
+void MainWindow::on_pushButton_nextPage_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(2);
+}
+//返回上一頁的功能鍵
+void MainWindow::on_pushButton_lastPage2_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
 //簡單鈕轉至開啟新的視窗
 void MainWindow::on_pushButton_easy_clicked()
 {

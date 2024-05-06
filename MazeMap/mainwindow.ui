@@ -57,7 +57,7 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="page">
      <property name="styleSheet">
@@ -138,12 +138,128 @@
     </widget>
     <widget class="QWidget" name="page_2">
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);</string>
+      <string notr="true">background-color: rgb(217, 250, 255);</string>
      </property>
      <widget class="QPushButton" name="pushButton_lastPage">
       <property name="geometry">
        <rect>
-        <x>40</x>
+        <x>50</x>
+        <y>400</y>
+        <width>70</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(226, 34, 213);
+background-color: rgb(241, 241, 241);</string>
+      </property>
+      <property name="text">
+       <string>上一頁</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_nextPage">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>400</y>
+        <width>70</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(226, 34, 213);
+background-color: rgb(241, 241, 241);</string>
+      </property>
+      <property name="text">
+       <string>下一頁</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>遊戲規則&amp;玩法</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>100</y>
+        <width>521</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+</string>
+      </property>
+      <property name="text">
+       <string>*開始遊戲選擇並關卡難度
+
+*按下任意鍵開始進行
+
+*使用鍵盤 W A S D 控制角色移動
+
+*終點在右下角，走到終點會跳出“恭喜“</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>110</y>
+        <width>131</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/images/images/player.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>pushButton_nextPage</zorder>
+     <zorder>pushButton_lastPage</zorder>
+     <zorder>label_3</zorder>
+     <zorder>label_4</zorder>
+     <zorder>label_5</zorder>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_lastPage2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
         <y>400</y>
         <width>70</width>
         <height>32</height>
@@ -161,7 +277,7 @@ background-color: rgb(241, 241, 241);</string>
       <property name="geometry">
        <rect>
         <x>230</x>
-        <y>50</y>
+        <y>70</y>
         <width>129</width>
         <height>81</height>
        </rect>
@@ -184,7 +300,7 @@ background-color: rgb(241, 241, 241);</string>
       <property name="geometry">
        <rect>
         <x>230</x>
-        <y>190</y>
+        <y>200</y>
         <width>129</width>
         <height>81</height>
        </rect>
@@ -203,11 +319,11 @@ background-color: rgb(241, 241, 241);</string>
        <string>中等</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_difficulty">
+     <widget class="QPushButton" name="pushButton_difficulty_2">
       <property name="geometry">
        <rect>
         <x>230</x>
-        <y>320</y>
+        <y>340</y>
         <width>129</width>
         <height>81</height>
        </rect>
@@ -226,7 +342,7 @@ background-color: rgb(241, 241, 241);</string>
        <string>困難</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="label_2">
       <property name="geometry">
        <rect>
         <x>380</x>
@@ -239,14 +355,9 @@ background-color: rgb(241, 241, 241);</string>
        <string notr="true">color: rgb(170, 0, 0);</string>
       </property>
       <property name="text">
-       <string>PS.會走到死掉喔!!</string>
+       <string>PS.會走到累死喔!!</string>
       </property>
      </widget>
-    </widget>
-    <widget class="QWidget" name="page_3">
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(239, 239, 178);</string>
-     </property>
     </widget>
    </widget>
   </widget>

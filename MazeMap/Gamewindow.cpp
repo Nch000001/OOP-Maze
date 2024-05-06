@@ -68,9 +68,9 @@ void GameWindow::keyPressEvent(QKeyEvent *event){
         if(mazeScene->isDone(playerRow, playerCol)){
 
             QMessageBox messageBox;
-            messageBox.setWindowTitle("恭喜");
-            messageBox.setText("結束遊戲?");
-            messageBox.setStandardButtons(QMessageBox::Yes | QMessageBox::No);
+            messageBox.setWindowTitle("通過");
+            messageBox.setText("恭喜通關!!");
+            messageBox.setStandardButtons(QMessageBox::Yes);
 
 
             messageBox.setStyleSheet("QMessageBox {"

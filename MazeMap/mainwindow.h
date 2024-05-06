@@ -28,6 +28,10 @@ private slots:
 
     void on_pushButton_lastPage_clicked();
 
+    void on_pushButton_nextPage_clicked();
+
+    void on_pushButton_lastPage2_clicked();
+
     void on_pushButton_easy_clicked();
 
     void on_pushButton_difficulty_clicked();
