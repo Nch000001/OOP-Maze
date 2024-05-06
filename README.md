@@ -19,7 +19,8 @@
 
 
 * 退出詢問  
-![退出詢問](https://github.com/Nch000001/OOP-Maze/assets/164344855/52db03f1-1360-4458-acaf-45ffb6e12b51)
+![退出詢問](https://github.com/Nch000001/OOP-Maze/assets/164344855/61c515e3-4502-4c7f-a029-d1def07cf745)  
+
 
 * 遊戲開始介面  
 ![遊戲開始](https://github.com/Nch000001/OOP-Maze/assets/164344855/de0252c0-69cd-42e5-8cca-366f45e89366)  
