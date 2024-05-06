@@ -11,7 +11,7 @@
 * 初始畫面  
 ![初始畫面](https://github.com/Nch000001/OOP-Maze/assets/164344855/272c7908-5a01-46da-a756-06ba5d1f0d82)  
 
-* 遊戲規則&玩法
+* 遊戲規則&玩法  
 ![遊戲規則](https://github.com/Nch000001/OOP-Maze/assets/164344855/92adcfd1-345c-4bcc-9c15-aeee2e5a3b29)  
 
 * 關卡難度選擇  
