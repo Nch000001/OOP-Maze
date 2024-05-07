@@ -5,9 +5,9 @@
 # 程式介紹(含UML圖)
 ![opp-class](https://github.com/Nch000001/OOP-Maze/assets/164344855/4135c87e-6a84-44dc-973a-3346609363fa)
 # 程式如何安裝執行(圖文講解)
-### *打開github點選Release  
+### 1.打開github點選Release  
 ![如何下載1](https://github.com/Nch000001/OOP-Maze/assets/164344855/f41ce067-e9a9-4947-9759-77ba94c0348f)  
-### *選擇適合自己電腦的版本  
+### 2.選擇適合自己電腦的版本  
 ![如何下載2](https://github.com/Nch000001/OOP-Maze/assets/164344855/28202f18-fee2-4b7b-8711-2835513e0f1a)  
 
 # 程式畫面截圖
