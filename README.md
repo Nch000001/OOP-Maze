@@ -6,6 +6,7 @@
 ![opp-class](https://github.com/Nch000001/OOP-Maze/assets/164344855/4135c87e-6a84-44dc-973a-3346609363fa)
 # 程式如何安裝執行(圖文講解)
 
+![如何下載1](https://github.com/Nch000001/OOP-Maze/assets/164344855/d100a467-c224-4579-b06d-561ffffcce23)
 
 # 程式畫面截圖
 ### * 初始畫面  
