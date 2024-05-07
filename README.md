@@ -9,9 +9,10 @@
 ![如何下載1](https://github.com/Nch000001/OOP-Maze/assets/164344855/f41ce067-e9a9-4947-9759-77ba94c0348f)  
 ### 2. 選擇適合自己電腦的版本  
 ![如何下載2](https://github.com/Nch000001/OOP-Maze/assets/164344855/28202f18-fee2-4b7b-8711-2835513e0f1a)  
+### 3. 解壓縮檔案  
+### 4. 開啟Mapmaze.exe  
 
-# 程式畫面截圖
-
+# 程式畫面截圖  
 ### * 初始畫面  
 ![初始畫面](https://github.com/Nch000001/OOP-Maze/assets/164344855/272c7908-5a01-46da-a756-06ba5d1f0d82)  
 
