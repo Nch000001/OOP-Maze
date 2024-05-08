@@ -32,10 +32,10 @@
 ![遊戲開始](https://github.com/Nch000001/OOP-Maze/assets/164344855/de0252c0-69cd-42e5-8cca-366f45e89366)  
 
 ### * 按下任意建開始  
- ![開始行走](https://github.com/Nch000001/OOP-Maze/assets/164344855/52a172b6-7df2-4f72-bd44-c59b576c8502)
+![開始行走](https://github.com/Nch000001/OOP-Maze/assets/164344855/30837004-248a-4933-b9f1-b80fc6b0043d)  
 
 ### * 成功走出  
-![通關](https://github.com/Nch000001/OOP-Maze/assets/164344855/1f04251a-59c3-4dab-b5c0-0e4ee423d5b1)  
+![通關](https://github.com/Nch000001/OOP-Maze/assets/164344855/a0460ec8-4bff-4a2b-b9a2-4c697139575e)  
 
 # 分工資訊:
 資工1A 李承壎(組長)  :主要程式碼編輯  
