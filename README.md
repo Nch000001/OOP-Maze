@@ -3,8 +3,7 @@
 # 成員: 李承壎、陳翊昕、石定強
 # 專題題目: OOP-Maze
 # 程式介紹(含UML圖)
-![UML](https://github.com/Nch000001/OOP-Maze/assets/164344855/0715c759-50c8-4049-8449-00d52270c7f4)  
-
+ ![UML](https://github.com/Nch000001/OOP-Maze/assets/164344855/03bead43-e36e-43a9-b0b9-4e0283155536)  
 
 # 程式如何安裝執行(圖文講解)
 ### 1. 打開github點選Release  
